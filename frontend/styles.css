@@ -35,3 +35,11 @@ select{font:inherit;background:var(--bg);color:var(--ink);border:1.5px solid var
 @media(max-width:560px){.tabs{grid-template-columns:1fr 1fr}h1{font-size:1.9rem}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 .hint{color:var(--mut);font-size:.85rem;margin-top:8px}
+
+.brand{background:#4A3B8C;color:#fff;padding:calc(18px + env(safe-area-inset-top,0px)) 18px 20px}
+.brand-in{max-width:760px;margin:0 auto}
+.brand h1{margin:0;line-height:0;font-size:1rem}
+.brand h1 img{display:block;height:44px;width:auto;max-width:100%}
+.brand .tag{margin:8px 0 0;color:#E3DDF7;font-size:.95rem}
+main{padding-top:22px}
+@media(max-width:560px){.brand h1 img{height:36px}}
